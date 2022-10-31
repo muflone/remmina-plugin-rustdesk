@@ -18,10 +18,10 @@ jobs:
       - run:
           name: build
           command: |
-            wget --output-document=remmina-plugin-builder.tar.gz
+            wget --output-document=remmina-plugin-builder.tar.gz \
               https://github.com/muflone/remmina-plugin-builder/archive/1.4.27.0.tar.gz
             tar --extract --verbose --gzip --file remmina-plugin-builder.tar.gz
-            cp --verbose --recursive remmina-plugin-rustdesk CMakeLists.txt
+            cp --verbose --recursive remmina-plugin-rustdesk CMakeLists.txt \
               remmina-plugin-builder-1.4.27.0/remmina-plugin-to-build
             cd remmina-plugin-builder-1.4.27.0
             cmake . -DCMAKE_INSTALL_PREFIX=install_dir -DWITH_TRACE_CALLS=ON
