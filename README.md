@@ -1,23 +1,26 @@
 # Remmina Plugin RUSTDESK
 
 [![Travis CI Build Status](https://img.shields.io/travis/com/muflone/remmina-plugin-rustdesk/master.svg)](https://www.travis-ci.com/github/muflone/remmina-plugin-rustdesk)
+[![CircleCI Build Status](https://img.shields.io/circleci/project/github/muflone/remmina-plugin-rustdesk/master.svg)](https://circleci.com/gh/muflone/remmina-plugin-rustdesk)
 
-**Author**: Fabio Castelli (Muflone) <muflone@muflone.com>
+**Description:** Remmina protocol plugin for Rustdesk connections.
 
-**Home page**: http://www.muflone.com/remmina-plugin-rustdesk/
+**Copyright:** 2022 Fabio Castelli (Muflone) <muflone(at)muflone.com>
 
-**Copyright**: 2022 Fabio Castelli (Muflone)
+**License:** GPL-2+
 
-**License**: GPL-2+
+**Source code:** https://github.com/muflone/remmina-plugin-rustdesk/
 
-## Description
+**Documentation**: http://www.muflone.com/remmina-plugin-rustdesk/
+
+# Description
 
 A [**Remmina**](https://github.com/freerdp/remmina) protocol plugin to connect
 to a remote host using Rustdesk.
 
 ![Main window](http://www.muflone.com/resources/remmina-plugin-rustdesk/archive/latest/english/general.png)
 
-## Install instructions
+# Install instructions
 
 Download and extract [**Remmina Plugin Builder**](https://github.com/muflone/remmina-plugin-builder/releases/):
 
@@ -41,7 +44,7 @@ access):
 
 You'll find it in the remmina connection editor.
 
-## License
+# License
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
